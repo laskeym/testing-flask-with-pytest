@@ -20,7 +20,7 @@ pipeline {
       steps {
         script {
           sh """
-          pytest
+          pytest test_api.py
           """
         }
       }
